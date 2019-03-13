@@ -29,3 +29,7 @@ $("ul").on("click",'span',function(event){
 	});
 	event.stopPropagation();
     })
+$(".fa-plus").click(function(){
+     $("input[type=text]").fadeToggle();
+
+})
